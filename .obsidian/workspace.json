@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SETUP.md",
+                "file": "M0-Foundations/experiments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SETUP"
+              "title": "experiments"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "ec9a3465ac56de59",
   "lastOpenFiles": [
+    "M0-Foundations/src/03_token_stats.py",
+    "SETUP.md",
     "README.md",
     "resources/links.md",
     "M0-Foundations/notes.md",
