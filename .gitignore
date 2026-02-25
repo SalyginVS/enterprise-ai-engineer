@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+
+# Secrets — НИКОГДА не коммитить ключи
+.env.local
+*.key
+secrets/
+api_keys.txt
+
+# Ollama temp
+*.gguf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Logs (большие)
+*.log
+logs/
+
+# Docker volumes
+docker-data/
+postgres-data/
