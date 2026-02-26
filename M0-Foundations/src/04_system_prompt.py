@@ -38,6 +38,7 @@ def classify_invoice(invoice_text: str) -> dict:
     response = client.chat(
         model="qwen3:8b",
         messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},  # ← добавить эту строку
             {"role": "user", "content": invoice_text}
         ],
         options={"temperature": 0.1}  # Низкая температура = более предсказуемый результат
@@ -45,6 +46,7 @@ def classify_invoice(invoice_text: str) -> dict:
     
     # Пытаемся распарсить JSON
     raw_text = response.message.content.strip()
+    # print(f"   [DEBUG] raw: {raw_text[:100]}")  # ← временно добавить
     
     # Убираем возможные markdown-блоки ```json ... ```
     if raw_text.startswith("```"):
