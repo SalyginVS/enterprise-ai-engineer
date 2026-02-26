@@ -6,7 +6,7 @@
       {
         "id": "5a51ac600f2f8f08",
         "type": "tabs",
-        "dimension": 56.02791878172588,
+        "dimension": 50.81967213114754,
         "children": [
           {
             "id": "ec9a3465ac56de59",
@@ -16,7 +16,7 @@
               "state": {
                 "file": "M0-Foundations/experiments.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "experiments"
@@ -27,7 +27,7 @@
       {
         "id": "88d855032be3f845",
         "type": "tabs",
-        "dimension": 43.97208121827411,
+        "dimension": 49.18032786885246,
         "children": [
           {
             "id": "eb0a40aba7a871d9",
@@ -208,6 +208,7 @@
   },
   "active": "ec9a3465ac56de59",
   "lastOpenFiles": [
+    "M1_session_context.md",
     "M0-Foundations/src/11_customer_support_agent.py",
     "M0-Foundations/src/10_validated_agent.py",
     "M0-Foundations/src/09_agent_loop.py",
