@@ -208,6 +208,7 @@
   },
   "active": "ec9a3465ac56de59",
   "lastOpenFiles": [
+    "M0-Foundations/src/08_first_tool.py",
     "M0-Foundations/src/07_smart_pipeline.py",
     "M0-Foundations/src/06_chain_of_thought.py",
     "M0-Foundations/src/05_few_shot.py",
