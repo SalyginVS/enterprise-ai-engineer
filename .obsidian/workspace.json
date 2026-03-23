@@ -167,8 +167,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -186,8 +186,7 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Создать новую базу": false
     }
   },
   "active": "b377672833e29e17",
